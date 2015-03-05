@@ -1,0 +1,64 @@
+GIT
+  remote: git://github.com/mydrive/capistrano-spec.git
+  revision: 2f3a1b2f863e57dd5ae1f8f8480ccc221c101e82
+  specs:
+    capistrano-spec (0.2.1)
+
+PATH
+  remote: .
+  specs:
+    capifony (2.8.4.dev)
+      capistrano (>= 2.13.5, <= 2.16.0)
+      capistrano-maintenance (= 0.0.3)
+      colored (>= 1.2.0)
+      inifile (>= 2.0.2, < 3.0.0)
+      ruby-progressbar (= 1.4.1)
+
+GEM
+  remote: http://rubygems.org/
+  specs:
+    capistrano (2.15.5)
+      highline
+      net-scp (>= 1.0.0)
+      net-sftp (>= 2.0.0)
+      net-ssh (>= 2.0.14)
+      net-ssh-gateway (>= 1.1.0)
+    capistrano-maintenance (0.0.3)
+      capistrano (>= 2.0.0)
+    colored (1.2)
+    diff-lcs (1.2.5)
+    fakefs (0.6.7)
+    highline (1.7.1)
+    inifile (2.0.2)
+    net-scp (1.2.1)
+      net-ssh (>= 2.6.5)
+    net-sftp (2.1.2)
+      net-ssh (>= 2.6.5)
+    net-ssh (2.9.2)
+    net-ssh-gateway (1.2.0)
+      net-ssh (>= 2.6.5)
+    rake (10.4.2)
+    rspec (3.2.0)
+      rspec-core (~> 3.2.0)
+      rspec-expectations (~> 3.2.0)
+      rspec-mocks (~> 3.2.0)
+    rspec-core (3.2.1)
+      rspec-support (~> 3.2.0)
+    rspec-expectations (3.2.0)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-mocks (3.2.1)
+      diff-lcs (>= 1.2.0, < 2.0)
+      rspec-support (~> 3.2.0)
+    rspec-support (3.2.2)
+    ruby-progressbar (1.4.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  capifony!
+  capistrano-spec!
+  fakefs
+  rake
+  rspec

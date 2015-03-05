@@ -1,3 +1,5 @@
+# encoding: UTF-8
+
 Gem::Specification.new do |spec|
 
   spec.name         = 'capifony'
